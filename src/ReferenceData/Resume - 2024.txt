@@ -1,0 +1,43 @@
+﻿Daniel Tymecki
+e: daniel.tymecki@gmail.com               c: (954) 549-5039           Miami, FL             LinkedIn
+Professional Summary
+________________
+
+
+Dynamic Full Stack Software Engineer with extensive expertise in web development, cloud architecture, and real-time event-driven systems. Proficient in Python, Angular, React, Node.js, and AWS, with a track record of delivering innovative solutions to complex challenges. Developed a reputation for combining technical prowess with a passion for problem-solving to drive transformative outcomes in high-pressure environments.
+Work Experience
+________________
+
+
+Millennium - Full Stack Software Engineer
+January 2023 - Present                                                                                                                                              Miami, FL
+* Spearheaded the development of Millennium's cutting-edge portfolio management cloud-based tooling suite by orchestrating seamless collaboration with backend developers.
+* Provided dedicated support to quantitative risk, senior management, and portfolio management teams, refining operational workflows and enhancing user experience.
+* Innovated and crafted dynamic front-end applications crucial to millions of global users, leveraging Angular TS 16 and React to deliver intuitive user interfaces.
+* Championed Agile methodologies, fostering a culture of continuous improvement and delivering high-quality software solutions on time and within budget.
+L3Harris - Sr. Associate Software Engineer Level II
+November 2021 - January 2023                                                                                                                                              Palm Bay, FL
+* Promoted to lead an integrated product team of engineers to develop a cloud-based platform for autonomous antenna requisitioning to service missions from several clients.
+* Advised a team of senior systems engineers on software practices and microservice-oriented systems design for a 200M software redesign effort.
+* Architected and developed a configurable, multi-threaded, Python-based simulation engine microservice, winning a key business pursuit valued at over 500M.
+L3Harris - Associate Software Engineer Level I
+January 2020 - November 2021                                                                                                                                   Palm Bay, FL
+* Hired as a full-stack engineer to aid in creating a cloud-based, mission integration distributed system.
+* Collaborated with astrophysicists to develop faster-than-realtime C++ flight software for satellites.
+* Developed a server-side caching system in Typescript that reduced user load times by 24%.
+Education
+________________
+
+
+University of Florida, Herbert Wertheim College of Engineering                                              Gainesville, FL
+B.S.E Computer Science Engineering with a Minor in Entrepreneurship                                      July 2016 - December 2019
+Skills
+________________
+
+
+Languages: Python, C++, Java, C#,  Javascript, Typescript, HTML, CSS
+Databases: Postgres, SQL, MongoDB
+
+
+Frameworks: Flask/Falcon, Angular, React, OpenAPI, Node.js, Kafka, RabbitMQ
+Tooling: Linux, Git, Docker, Kubernetes, AWS, Jenkins, VS Code, Atlassian Developer Suite

@@ -1,26 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './styles.css';
+import data from './ReferenceData/resume.json';
+import { ResumeData } from './models/ResumeData';
+import Header from './components/Header';
+import Contact from './components/Contact';
+import WorkExperience from './components/WorkExperience';
+import Education from './components/Education/Education';
+import Skills from './components/Skills/Skills';
+import ProfileImage from './components/ProfileImage/ProfileImage';
+import Fab from './components/Fab/Fab';
 
-function App() {
+const App: React.FC = () => {
+  const resumeData: ResumeData = data;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {false && <ProfileImage imageUrl={resumeData.image} />}
+      <Header resumeData={resumeData} />
+      <Contact contact={resumeData.contact} />
+      <WorkExperience workExperience={resumeData.work_experience} />
+      <Education education={resumeData.education} />
+      <Skills skills={resumeData.skills} />
+      <Fab /> {/* Add the FAB component */}
     </div>
   );
-}
+};
 
 export default App;

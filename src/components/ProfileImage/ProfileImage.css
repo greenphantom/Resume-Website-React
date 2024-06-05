@@ -1,0 +1,15 @@
+.profile-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 300px; /* Adjust the size as needed */
+    height: 300px; /* Adjust the size as needed */
+    border-radius: 50%; /* Makes the container circular */
+}
+
+.profile-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures the image covers the container */
+}
