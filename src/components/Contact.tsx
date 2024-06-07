@@ -10,10 +10,10 @@ const Contact: React.FC<ContactProps> = ({ contact }) => {
         <section>
             <h2>Contact</h2>
             <ul>
-                <li>Email: {contact.email}</li>
+                <li>Email: <a href={`mailto:${contact.email}`}>{contact.email}</a></li>
                 <li>Phone: {contact.phone}</li>
                 <li>Location: {contact.location}</li>
-                <li>LinkedIn: {contact.linkedin}</li>
+                <li>LinkedIn: <a target='blank' href={contact.linkedin}><i className="bi bi-linkedin"></i></a></li>
             </ul>
         </section>
     );

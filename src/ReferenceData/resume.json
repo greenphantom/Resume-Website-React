@@ -3,10 +3,10 @@
     "version": "2024.06.05",
     "image": "profile.jpg",
     "contact": {
-      "email": "daniel.tymecki@gmail.com",
+      "email": "Daniel.Tymecki@Gmail.com",
       "phone": "(954) 549-5039",
       "location": "Miami, FL",
-      "linkedin": "LinkedIn"
+      "linkedin": "https://www.linkedin.com/in/daniel-tymecki-799711127/"
     },
     "professional_summary": "Dynamic Full Stack Software Engineer with extensive expertise in web development, cloud architecture, and real-time event-driven systems. Proficient in Python, Angular, React, Node.js, and AWS, with a track record of delivering innovative solutions to complex challenges. Developed a reputation for combining technical prowess with a passion for problem-solving to drive transformative outcomes in high-pressure environments.",
     "work_experience": [

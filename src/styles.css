@@ -1,23 +1,24 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Figtree';
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 header, section {
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
-    background: #fff;
+    background: var(--card-color);
+    color: var(--text-color);
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px var(--box-shadow-color);
 }
 
 h1, h2, h3 {
-    color: #2c3e50;
+    color: var(--heading-color);
 }
 
 ul {
@@ -30,7 +31,7 @@ li {
 }
 
 h2 {
-    border-bottom: 2px solid #2c3e50;
+    border-bottom: 2px solid  var(--border-color);
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
@@ -42,7 +43,16 @@ article {
 article h3 {
     margin: 0;
     font-size: 1.2em;
-    color: #3ba75f;
+    color: var(--subheading-color);
+}
+
+a {
+    color: var(--link-color);
+}
+
+a:hover {
+    color: var(--link-hover);
+    text-decoration: underline;
 }
 
 article p {
@@ -59,4 +69,19 @@ article p {
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
+  }
+
+  .theme-toggle-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 1000; /* Ensure it stays on top */
+  }
+
+  .theme-toggle-button i {
+    color: var(--text-color); /* Adjust based on your theme colors */
   }

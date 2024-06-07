@@ -1,9 +1,10 @@
 .skill-badge {
     display: inline-block;
-    background-color: #45d173;
+    background-color: var(--badge-color);
     color: white;
     padding: 5px 10px;
     margin: 5px;
     border-radius: 12px;
     font-size: 14px;
+    font-weight: bold;
 }
