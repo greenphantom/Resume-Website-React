@@ -53,8 +53,53 @@
         "dates": "July 2016 - December 2019"
       }
     ],
+    "projects": [
+      {
+            "title": "Resume Website",
+            "description": [
+                "Created a personal resume website using React and Typescript.",
+                "Implemented responsive design for optimal viewing on all devices.",
+                "Utilized CSS and themes to create a visually appealing design."
+            ],
+            "link": "https://greenphantom.github.io/resume",
+            "githubLink": "https://github.com/greenphantom/resume"
+      },
+      {
+        "title": "Project Automata",
+        "description": [
+          "Automata Script Manager is a tool for managing and running scripts with a user-friendly interface.",
+          "Create New Scripts: Users can create new scripts with specified parameters, descriptions, and functions.",
+          "Update Existing Scripts: Users can update the details and functions of existing scripts.",
+          "View Scripts: Users can view a list of all scripts and select individual scripts to view or update.",
+          "Run Scripts: Users can execute scripts directly from the application.",
+          "Delete Scripts: Users can delete scripts from the database."
+        ],
+        "link": "",
+        "githubLink": "https://github.com/greenphantom/Project-Automata"
+      },
+      {
+        "title": "Study Buddy",
+        "description": [
+          "Developed an Android application to connect students looking for study partners at UF named Study Buddy.",
+          "Features include real-time location services, group chat functionality, user profile customization, and sleek, materialistic design.",
+          "Utilized Firebase for realtime user authentication."
+        ],
+        "link": "",
+        "githubLink": "https://github.com/greenphantom/Study-Buddy"
+      },
+      {
+        "title": "Ocaml Polynomial Simplifier",
+
+        "description": [
+          "Developed a polynomial simplifier in Ocaml as part of the Programming Languages course at UF.",
+          "Utilized functional programming concepts such as recursion and pattern matching to simplify polynomials."
+        ],
+        "link": "",
+        "githubLink": "https://github.com/greenphantom/Ocaml-Polynomial-Simplifier"
+      }
+    ],
     "skills": {
-      "languages": ["Python", "C++", "Java", "C#", "Javascript", "Typescript", "HTML", "CSS"],
+      "languages": ["Python", "C++", "Java", "C#", "Javascript", "Typescript", "HTML", "CSS", "Ocaml"],
       "databases": ["Postgres", "SQL", "MongoDB"],
       "frameworks": ["Flask/Falcon", "Angular", "React", "OpenAPI", "Node.js", "Kafka", "RabbitMQ"],
       "tooling": ["Linux", "Git", "Docker", "Kubernetes", "AWS", "Jenkins", "VS Code", "Atlassian Developer Suite"]

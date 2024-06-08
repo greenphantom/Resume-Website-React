@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import WorkExperience from './components/WorkExperience';
 import Education from './components/Education/Education';
 import Skills from './components/Skills/Skills';
+import Projects from './components/Project/Project';
 import Fab from './components/Fab/Fab';
 
 const App: React.FC = () => {
@@ -29,13 +30,14 @@ const App: React.FC = () => {
 
   return (
     <div>
-      <button className="theme-toggle-button" onClick={toggleTheme}>
+      <button className="theme-toggle-button" onClick={toggleTheme} title="Toggle light/dark mode">
         {theme === 'light' ? <i className="fas fa-moon"></i> : <i className="fas fa-sun"></i>}
       </button>
       <Header resumeData={resumeData} />
       <Contact contact={resumeData.contact} />
       <WorkExperience workExperience={resumeData.work_experience} />
       <Education education={resumeData.education} />
+      <Projects projects={resumeData.projects} />
       <Skills skills={resumeData.skills} />
       <Fab />
     </div>

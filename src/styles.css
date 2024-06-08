@@ -75,6 +75,8 @@ article p {
     position: fixed;
     top: 10px;
     right: 10px;
+    height: 50px;
+    width: 50px;
     background: none;
     border: none;
     cursor: pointer;
@@ -83,5 +85,9 @@ article p {
   }
 
   .theme-toggle-button i {
-    color: var(--text-color); /* Adjust based on your theme colors */
+    color: var(--text-color);
   }
+
+  .icon-large {
+    font-size: 1.4em;
+}

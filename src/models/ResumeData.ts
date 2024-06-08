@@ -1,5 +1,6 @@
 import { Contact } from "./Contact";
 import { Education } from "./Education";
+import { Project } from "./Project";
 import { Skills } from "./Skills";
 import { WorkExperience } from "./WorkExperience";
 
@@ -12,4 +13,5 @@ export interface ResumeData {
     work_experience: WorkExperience[];
     education: Education[];
     skills: Skills;
+    projects: Project[];
 }
