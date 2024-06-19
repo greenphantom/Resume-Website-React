@@ -65,6 +65,16 @@
             "githubLink": "https://github.com/greenphantom/resume"
       },
       {
+        "title": "Command Storage Microservice",
+        "description": [
+          "Built for fun to encapsulate storing command references within a Flask microservice.",
+          "Allows storing command examples and references to an SQL database.",
+          "Includes local setup guide, dependency management, and Docker support."
+        ],
+        "link": "",
+        "githubLink": "https://github.com/greenphantom/CLI-Command-DB"
+      },
+      {
         "title": "Project Automata",
         "description": [
           "Automata Script Manager is a tool for managing and running scripts with a user-friendly interface.",
