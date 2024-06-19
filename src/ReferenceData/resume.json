@@ -1,6 +1,6 @@
 {
     "name": "Daniel Tymecki",
-    "version": "2024.06.05",
+    "version": "2024.06.19",
     "image": "profile.jpg",
     "contact": {
       "email": "Daniel.Tymecki@Gmail.com",
@@ -16,7 +16,7 @@
         "dates": "January 2023 - Present",
         "location": "Miami, FL",
         "responsibilities": [
-          "Spearheaded the development of Millennium's cutting-edge portfolio management cloud-based tooling suite by orchestrating seamless collaboration with backend developers.",
+          "Spearheaded the development of Millennium's cutting-edge portfolio management cloud-based tooling suite as a Tech Lead by orchestrating seamless collaboration with front/back end developers.",
           "Provided dedicated support to quantitative risk, senior management, and portfolio management teams, refining operational workflows and enhancing user experience.",
           "Innovated and crafted dynamic front-end applications crucial to millions of global users, leveraging Angular TS 16 and React to deliver intuitive user interfaces.",
           "Championed Agile methodologies, fostering a culture of continuous improvement and delivering high-quality software solutions on time and within budget."
@@ -26,7 +26,7 @@
         "company": "L3Harris",
         "title": "Sr. Associate Software Engineer Level II",
         "dates": "November 2021 - January 2023",
-        "location": "Palm Bay, FL",
+        "location": "Melbourne, FL",
         "responsibilities": [
           "Promoted to lead an integrated product team of engineers to develop a cloud-based platform for autonomous antenna requisitioning to service missions from several clients.",
           "Advised a team of senior systems engineers on software practices and microservice-oriented systems design for a 200M software redesign effort.",
@@ -37,7 +37,7 @@
         "company": "L3Harris",
         "title": "Associate Software Engineer Level I",
         "dates": "January 2020 - November 2021",
-        "location": "Palm Bay, FL",
+        "location": "Melbourne, FL",
         "responsibilities": [
           "Hired as a full-stack engineer to aid in creating a cloud-based, mission integration distributed system.",
           "Collaborated with astrophysicists to develop faster-than-realtime C++ flight software for satellites.",
