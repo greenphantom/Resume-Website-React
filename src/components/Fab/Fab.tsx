@@ -4,7 +4,8 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const Fab: React.FC = () => {
     const handleDownload = () => {
-        window.open(`resume/Daniel-Tymecki-Resume.pdf`, '_blank');
+        // NOTE: To make this work locally, need to add resume/ to path
+        window.open(`Daniel-Tymecki-Resume.pdf`, '_blank');
     };
 
     return (
