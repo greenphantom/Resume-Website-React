@@ -4,7 +4,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const Fab: React.FC = () => {
     const handleDownload = () => {
-        window.open(`Daniel-Tymecki-Resume.pdf`, '_blank');
+        window.open(`resume/Daniel-Tymecki-Resume.pdf`, '_blank');
     };
 
     return (
