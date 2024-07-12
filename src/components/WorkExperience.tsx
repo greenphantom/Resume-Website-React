@@ -11,9 +11,15 @@ const WorkExperience: React.FC<WorkExperienceProps> = ({ workExperience }) => {
             <h2>Work Experience</h2>
             {workExperience.map((job, index) => (
                 <article key={index}>
-                    <h3>{job.title} at {job.company}</h3>
-                    <p>{job.dates}</p>
-                    <p>{job.location}</p>
+                    <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                        <div>
+                            <h3>{job.title} at {job.company}</h3>
+                            <p>{job.dates}</p>
+                        </div>
+                        <div style={{ float: 'right', fontWeight: 'bold' }}>
+                            <p>{job.location}</p>
+                        </div>
+                    </div>
                     <ul>
                         {job.responsibilities.map((responsibility, idx) => (
                             <li key={idx}>{responsibility}</li>
