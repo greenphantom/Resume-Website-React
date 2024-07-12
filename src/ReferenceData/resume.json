@@ -30,7 +30,9 @@
         "responsibilities": [
           "Promoted to lead an integrated product team of engineers to develop a cloud-based platform for autonomous antenna requisitioning to service missions from several clients.",
           "Advised a team of senior systems engineers on software practices and microservice-oriented systems design for a 200M software redesign effort.",
-          "Architected and developed a configurable, multi-threaded, Python-based simulation engine microservice, winning a key business pursuit valued at over 500M."
+          "Architected and developed a configurable, multi-threaded, Python-based simulation engine microservice, winning a key business pursuit valued at over 500M.",
+          "Led training initiative to coach new team members and help them produce high-quality code and use modern software tooling such as Git, VS Code, and Docker.",
+          "Acted as lead panel interviewer for several hiring interviews and aided in numerous hiring decisions by providing valuable feedback and expertise on candidate efficacy as a software engineer."
         ]
       },
       {
@@ -39,9 +41,20 @@
         "dates": "January 2020 - November 2021",
         "location": "Melbourne, FL",
         "responsibilities": [
-          "Hired as a full-stack engineer to aid in creating a cloud-based, mission integration distributed system.",
+          "Hired as a full-stack engineer to aid in creating a cloud-based, mission integration distributed system including developing microservices needed to plan, service, schedule, and execute space missions.",
           "Collaborated with astrophysicists to develop faster-than-realtime C++ flight software for satellites.",
-          "Developed a server-side caching system in Typescript that reduced user load times by 24%."
+          "Developed a server-side caching system in Javascript that reduced user load times by 24% and built and designed Astro-UX compliant React components for the customer-facing web UI.",
+          "Ushered in new project-wide testing guidelines and requirements, improving overall project code quality and increasing code coverage by 33%."
+        ]
+      },
+      {
+        "company": "University of Florida",
+        "title": "Computer Science Teaching Assistant",
+        "dates": "August 2018 - December 2019",
+        "location": "Gainesville, FL",
+        "responsibilities": [
+          "Contributed to curriculum development for teaching fundamental computer science and programming concepts within the Herbert Wertheim College of Engineering.",
+          "Designed and implemented educational assignments utilizing diverse programming languages and frameworks, including C++, Java, and Python, to enhance student comprehension and practical skills."
         ]
       }
     ],
